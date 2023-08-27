@@ -7,6 +7,7 @@ const BrowseTheRange = () => {
       <Text fontSize="3xl" fontWeight="bold" textAlign="center" mb={6}>
         Browse the Range
       </Text>
+      <Text mb={6}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Text>
 
       <Grid templateColumns="repeat(3, 1fr)" gap={6}>
         <Box>
