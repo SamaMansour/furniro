@@ -43,7 +43,7 @@ const ProductCard = ({ imageUrl, title, description, discount }) => {
         justifyContent="center"
         transition="opacity 0.2s"
       >
-        <Button colorScheme="teal" size="md" mb={2}>
+        <Button colorScheme="#FFFFFF" size="md" mb={2} color="#B88E2F" bgColor="#FFFFFF">
           Add to Cart
         </Button>
         <Flex justifyContent="center" spacing={4}>
