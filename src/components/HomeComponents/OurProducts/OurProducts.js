@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Button, Grid, Text  } from "@chakra-ui/react";
-import ProductCard from "../ProductCard/ProductCard";
+import ProductCard from "../../ProductCard/ProductCard";
 const OurProducts = () => {
   return (
     <Box p={8}>
