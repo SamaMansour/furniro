@@ -10,6 +10,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
       <Button
         onClick={() => onPageChange(currentPage - 1)}
         disabled={currentPage === 1}
+        bgColor="#FFF3E3"
       >
         Previous
       </Button>
@@ -19,6 +20,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
       <Button
         onClick={() => onPageChange(currentPage + 1)}
         disabled={currentPage === totalPages}
+        bgColor="#FFF3E3"
       >
         Next
       </Button>
