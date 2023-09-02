@@ -6,6 +6,7 @@ import Footer from "./components/Footer/Footer";
 import Shop from "./layouts/Shop/Shop";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import SingleProduct from "./layouts/SingleProduct/SingleProduct";
+import ProductComparision from "./layouts/ProductComparision/ProductComparision";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/product" element={<SingleProduct />} />
+          <Route path="/compare" element={<ProductComparision />} />
         </Routes>
         <Footer />
       </BrowserRouter>
